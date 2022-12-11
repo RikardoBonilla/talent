@@ -54,7 +54,7 @@
                 return;
             }
 
-            $passwordValidation = Main::isValidRegularExpression("/^(?=.*?[A-Z])(?=.*?[a-z])(?=.*?[0-6])(?=.*?[*-.]).{6}$/", $_POST["password"]);
+            $passwordValidation = Main::isValidRegularExpression("/^(?=.*?[A-Z])(?=.*?[a-z])(?=.*?[*-.]).{6}$/", $_POST["password"]);
             if(!$passwordValidation){
                 $respose["status"]["error"] = "password";
                 $respose["status"]["errorMessage"] = (trim($_POST["password"]) == '') ? "empty" : "match";
