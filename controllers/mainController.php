@@ -8,7 +8,6 @@
      * 
      */
 	
-	require_once 'core/core.php';
 
 	class mainController extends Main{
 

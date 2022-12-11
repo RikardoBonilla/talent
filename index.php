@@ -7,6 +7,8 @@
      * 
      */
 
+    require_once 'core/core.php';
+
     $controller = isset($_GET['controller']) ? $_GET['controller'].'Controller' : 'mainController';
     $method = isset($_GET['method']) ? $_GET['method'] : 'index';
     
