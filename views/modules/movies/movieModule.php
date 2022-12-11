@@ -28,7 +28,7 @@
                 <select class="center-inputs" id="sort_by">
                     <option value="Title" selected>title</option>
                     <option value="Year">date</option>
-                    <option value="Type">type</option>
+                    <option value="Type"></option>
                 </select>
             </div>
         </div>

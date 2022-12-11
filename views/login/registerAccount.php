@@ -5,8 +5,6 @@
    * The purpose of this method is to create the body of the form to create the records.
    * 
    */
-
-
   function registerUserNewForm() {
     $html = '';
 

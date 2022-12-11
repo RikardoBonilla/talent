@@ -11,7 +11,7 @@
 
 	class mainController extends Main{
 
-		function index(){
+		public function index(){
 			require_once('views/means/header.php');
 			require_once('views/login/index.php');
 		}  

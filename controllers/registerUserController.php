@@ -16,7 +16,7 @@
         /**
          * This function calls the registration form for the login.
          */
-        function registerUserNew(){
+        public function registerUserNew(){
             registerUserNewForm();
         }
 
@@ -28,7 +28,7 @@
          * 
          */
 
-        function registerUserSubmit(){
+        public function registerUserSubmit(){
             
             $nameValidation = Main::isValidRegularExpression("/^[A-Z]+$/i", $_POST["username"]);
             if(!$nameValidation){

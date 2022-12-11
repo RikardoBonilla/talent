@@ -12,7 +12,7 @@ class Main{
 	 * valid against the submitted field
 	 * 
 	 */
-	function isValidRegularExpression($pattern, $text){
+	public function isValidRegularExpression($pattern, $text){
 		return preg_match($pattern, $text) ? true : false;
 	}
 }
